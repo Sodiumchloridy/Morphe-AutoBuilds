@@ -1,3 +1,6 @@
+> [!NOTE]
+> This repository is a personal fork of [@RookieEnough](https://github.com/RookieEnough/Revanced-AutoBuilds)'s builder, maintained to automate daily builds for my personal devices. Builds are provided as-is without dedicated support. For the original upstream project, visit the upstream repository.
+
 <div align="center">
 
 # 🔧 Morphe Non-Root Builder
@@ -44,7 +47,7 @@ A sophisticated, automated pipeline that builds ready-to-install Morphe applicat
 
 | Mirror | Description | Link |
 | :--- | :--- | :--- |
-| **GitHub Releases** | Primary source. Contains all builds. | [**Download Latest Release**](https://github.com/RookieEnough/Morphe-AutoBuilds/releases/latest) |
+| **GitHub Releases** | Primary source. Contains all builds. | [**Download Latest Release**](https://github.com/Sodiumchloridy/Morphe-AutoBuilds/releases/latest) |
 
 ### 📱 Supported Apps & Architectures
 

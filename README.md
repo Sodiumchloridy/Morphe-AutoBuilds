@@ -1,9 +1,12 @@
+> [!NOTE]
+> This repository is a personal fork of [@RookieEnough](https://github.com/RookieEnough/Revanced-AutoBuilds)'s builder, maintained to automate daily builds for my personal devices. Builds are provided as-is without dedicated support. For the original upstream project, visit the upstream repository.
+
 <div align="center">
 
 # 🔧 Morphe Non-Root Builder
 
-[![Daily Build](https://img.shields.io/github/actions/workflow/status/RookieEnough/Revanced-AutoBuilds/patch.yml?label=Daily%20Build&style=for-the-badge&color=2ea44f)](https://github.com/RookieEnough/Revanced-AutoBuilds/actions/workflows/patch.yml)
-[![Latest Release](https://img.shields.io/github/v/release/RookieEnough/Revanced-AutoBuilds?style=for-the-badge&label=Latest%20Release&color=0366d6)](https://github.com/RookieEnough/Revanced-AutoBuilds/releases/latest)
+[![Daily Build](https://img.shields.io/github/actions/workflow/status/RookieEnough/Revanced-AutoBuilds/patch.yml?label=Daily%20Build&style=for-the-badge&color=2ea44f)](https://github.com/Sodiumchloridy/Revanced-AutoBuilds/actions/workflows/patch.yml)
+[![Latest Release](https://img.shields.io/github/v/release/RookieEnough/Revanced-AutoBuilds?style=for-the-badge&label=Latest%20Release&color=0366d6)](https://github.com/Sodiumchloridy/Revanced-AutoBuilds/releases/latest)
 [![Python Version](https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/github/license/RookieEnough/Revanced-AutoBuilds?style=for-the-badge&color=orange)](LICENSE)
 
@@ -44,7 +47,7 @@ A sophisticated, automated pipeline that builds ready-to-install Morphe applicat
 
 | Mirror | Description | Link |
 | :--- | :--- | :--- |
-| **GitHub Releases** | Primary source. Contains all builds. | [**Download Latest Release**](https://github.com/RookieEnough/Morphe-AutoBuilds/releases/latest) |
+| **GitHub Releases** | Primary source. Contains all builds. | [**Download Latest Release**](https://github.com/Sodiumchloridy/Morphe-AutoBuilds/releases/latest) |
 
 ### 📱 Supported Apps & Architectures
 

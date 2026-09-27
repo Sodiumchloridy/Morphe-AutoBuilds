@@ -238,15 +238,18 @@ def generate_possible_uptodown_names(config: dict) -> list[str]:
     if package.startswith("com."):
         parts = package.split(".")
         add(package_dash.removeprefix("com-"))
-        if len(parts) >= 2:
-            add(f"com-{parts[1]}")
-            add(f"com-{parts[1]}-{parts[-1]}")
+        if len(parts) == 2:
+            # e.g. com.spotify -> spotify
             add(parts[1])
+        elif len(parts) >= 3:
+            # For 3+ parts (e.g. com.facebook.orca), parts[1] is the publisher/vendor, NOT the app name!
+            # Falling back to parts[1] alone caused com.facebook.orca to match and download the Facebook app.
+            add(f"{parts[1]}-{parts[-1]}")
             add(parts[-1])
-        if len(parts) >= 3:
             add(f"com-{parts[1]}{parts[2]}")
             add(f"com-{parts[1]}{parts[2]}-mea")
             add(f"com-{'-'.join(parts[1:])}")
+            add("-".join(parts[1:]))
     for suffix in ("", "-android", "-mobile", "-mea", "-plus", "-pro", "-lite", "-hd", "-apk"):
         add(app_name + suffix)
         add(package_dash + suffix)

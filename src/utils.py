@@ -9,6 +9,7 @@ from github.GithubException import BadCredentialsException
 from src import gh
 from sys import exit
 import subprocess
+import zipfile
 from pathlib import Path
 from urllib.parse import urlparse, unquote, parse_qs, quote
 from src import session

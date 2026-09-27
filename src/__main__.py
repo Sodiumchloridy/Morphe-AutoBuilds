@@ -137,6 +137,8 @@ def run_build(app_name: str, source: str, arch: str = "universal") -> str:
     include_patches = []
 
     patches_path = Path("patches") / f"{app_name}-{source}.txt"
+    if not patches_path.exists():
+        patches_path = Path("patches") / f"{app_name}.txt"
     if patches_path.exists():
         with patches_path.open('r') as patches_file:
             for line in patches_file:

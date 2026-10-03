@@ -5,7 +5,7 @@
 
 # 🔧 Morphe Non-Root Builder
 
-[![Daily Build](https://img.shields.io/github/actions/workflow/status/RookieEnough/Revanced-AutoBuilds/patch.yml?label=Daily%20Build&style=for-the-badge&color=2ea44f)](https://github.com/Sodiumchloridy/Morphe-AutoBuilds/actions/workflows/patch.yml)
+![CI/CD Status](https://github.com/Sodiumchloridy/Morphe-AutoBuilds/actions/workflows/patch.yml/badge.svg)
 [![License](https://img.shields.io/github/license/RookieEnough/Revanced-AutoBuilds?style=for-the-badge&color=orange)](LICENSE)
 
 
